@@ -5,25 +5,52 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+// Yoga-themed color palette adapted from Next.js design
+const tintColorLight = '#e89747'; // accent color - warm orange
+const tintColorDark = '#e89747';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
+    text: '#1a1427', // Deep indigo foreground
+    background: '#f5f3f7', // Light warm background
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    icon: '#6b5b7a', // Muted purple-grey
+    tabIconDefault: '#9b8fa8',
     tabIconSelected: tintColorLight,
+    // Game-specific colors
+    card: '#e8e5ec', // Card background
+    cardForeground: '#1a1427',
+    primary: '#3d2d54', // Deep purple
+    primaryForeground: '#f5f3f7',
+    secondary: '#c4b8d3', // Light lavender
+    secondaryForeground: '#1a1427',
+    accent: '#e89747', // Warm orange
+    accentForeground: '#1a1427',
+    muted: '#a89bb5',
+    mutedForeground: '#5d4d6b',
+    border: '#3d2d54',
+    error: '#dc5545',
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
+    text: '#ede9f1', // Light foreground
+    background: '#1a1427', // Deep indigo background
     tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
+    icon: '#b3a8c0',
+    tabIconDefault: '#8a7d98',
     tabIconSelected: tintColorDark,
+    // Game-specific colors
+    card: '#2b2138', // Dark card
+    cardForeground: '#ede9f1',
+    primary: '#5b4677', // Medium purple
+    primaryForeground: '#1a1427',
+    secondary: '#8b75a3', // Purple-blue
+    secondaryForeground: '#1a1427',
+    accent: '#e89747', // Warm orange
+    accentForeground: '#1a1427',
+    muted: '#5d4d6b',
+    mutedForeground: '#b3a8c0',
+    border: '#3d2d54',
+    error: '#c44536',
   },
 };
 

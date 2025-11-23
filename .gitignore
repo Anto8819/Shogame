@@ -2,6 +2,7 @@
 
 # Config
 .vscode/
+.github/
 
 # dependencies
 node_modules/
